@@ -39,10 +39,10 @@ puts decode_char('.-')
 def decode_word(word)
   new_word = []
   
-  split_word = word.split
+  split_word = word.spli
   
   split_word.each do |letter|
-    new_word.push(decode_char(letter))
+    new_word.push(decode_char(lettr))
   end
 
   new_word.join
